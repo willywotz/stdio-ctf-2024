@@ -12,4 +12,4 @@ Network : BananaNetwork
 
 Forensic : AD_Dump
 
-Misc : Modern password
+Misc : [Modern password](modern_password)
