@@ -15,7 +15,11 @@
 	- -int if ascii(s1) < ascii(s2)
 	- +int if ascii(s1) > ascii(s2)
 - แล้วถูกเช็คด้วย test (bitwise and) เสร็จก่อนโดดด้วย jnz
-- ซึ่ง jnz (jump if not zero) เนี่ยมันจะโดดก็ต่อเมื่อ ค่าของ test != 0 
+- ซึ่ง jnz (jump if not zero) เนี่ยมันจะโดดก็ต่อเมื่อ ค่าของ test != 0
+- พอมันไม่โดด ก็จะทำการ set [rbp+var_4] = 1 เพื่อให้ผ่านตอน check if ก่อน print flag
+
+![alt](5.png)
+
 - ผมเลยได้ไอเดียว่างั้นลองแสปมให้ค่า username กับ password ของเราให้เกินดูสิ
 
 ![alt](4.png)
